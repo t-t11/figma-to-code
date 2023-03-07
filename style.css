@@ -674,6 +674,10 @@ footer .copy-right {
 }
 
 @media (max-width: 700px) {
+  header {
+    overflow: hidden;
+  }
+
   h2 {
     font-size: 30px;
   }
@@ -708,11 +712,12 @@ footer .copy-right {
   }
 
   .hero-section .right {
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .hero-section .right > img {
     height: 400px;
+    transform: translateX(50px);
   }
 
   .single-achievement-card {
@@ -730,12 +735,12 @@ footer .copy-right {
 
   .single-achievement-card.enrollment {
     top: 600px;
-    left: -20px;
+    left: 10%;
   }
 
   .single-achievement-card.rating {
     top: 710px;
-    left: 0;
+    left: 10%;
   }
 
   .single-achievement-card.rating img {
